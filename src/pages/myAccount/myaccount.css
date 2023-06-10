@@ -1,0 +1,25 @@
+.grid-column-start {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  
+  .grid-column-start > * {
+    margin-right: 10px; /* Adjust the spacing between the cards as needed */
+    margin-bottom: 10px; /* Adjust the spacing between rows as needed */
+  }
+  .card{
+    margin-top: 1vh;
+    border-radius: 5px;
+    margin-left: 2vh;
+  }
+  .dp{
+    width: 90px;
+    height: 90px;
+  }
+  .card1{
+    margin-right: 2vh;
+  }
+  .transaction{
+    height: max-content;
+  }
